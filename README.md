@@ -41,3 +41,7 @@
 
 9 directories, 28 files
 ```
+### Needed Libraries
+```
+pip install torch torchvision opencv-python scipy einops matplotlib pycocotools tensorboard
+```
