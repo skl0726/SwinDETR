@@ -17,7 +17,7 @@ The main contributions of this study are as follows:
 Hello
 
 ### Model Structure
-<img src="./Images/Architecture.png">
+<img src="./Images/Architecture.png" width="80%">
 
 ### Inference Test
 - Left: SwinDETR Image Inference / Right: DETR Image Inference
