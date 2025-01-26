@@ -1,5 +1,24 @@
 # SwinDETR
 
+### Inference Test
+Left: SwinDETR Image Inference / Right: DETR Image Inference
+<br/>
+<figure class="half">
+    <a href="link"><img src="./Inference-Image/SwinDETR1.png" width="45%"></a>
+    <a href="link"><img src="./Inference-Image/DETR1.png" width="45%"></a>
+</figure>
+<figure class="half">
+    <a href="link"><img src="./Inference-Image/SwinDETR2.png" width="45%"></a>
+    <a href="link"><img src="./Inference-Image/DETR2.png" width="45%"></a>
+</figure>
+<figure class="half">
+    <a href="link"><img src="./Inference-Image/SwinDETR3.png" width="45%"></a>
+    <a href="link"><img src="./Inference-Image/DETR3.png" width="45%"></a>
+</figure>
+<br/>
+SwinDETR captures detailed local information (small objects) more effectively and performs well on detection than DETR.
+Compared to DETR, SwinDETR is less likely to misjudge that there are objects in the background around small objects, and less likely to misjudge the class of small objects.
+
 ### Directory Structure
 ```
 └── SwinDETR
