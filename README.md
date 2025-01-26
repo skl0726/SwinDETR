@@ -17,22 +17,22 @@ The main contributions of this study are as follows:
 Hello
 
 ### Model Structure
-<img src="">
+<img src="./Images/Architecture.png">
 
 ### Inference Test
 - Left: SwinDETR Image Inference / Right: DETR Image Inference
 <br/>
 <figure class="half">
-    <a href="link"><img src="./Inference-Image/SwinDETR1.png" width="45%"></a>
-    <a href="link"><img src="./Inference-Image/DETR1.png" width="45%"></a>
+    <a href="link"><img src="./Images/SwinDETR1.png" width="45%"></a>
+    <a href="link"><img src="./Images/DETR1.png" width="45%"></a>
 </figure>
 <figure class="half">
-    <a href="link"><img src="./Inference-Image/SwinDETR2.png" width="45%"></a>
-    <a href="link"><img src="./Inference-Image/DETR2.png" width="45%"></a>
+    <a href="link"><img src="./Images/SwinDETR2.png" width="45%"></a>
+    <a href="link"><img src="./Images/DETR2.png" width="45%"></a>
 </figure>
 <figure class="half">
-    <a href="link"><img src="./Inference-Image/SwinDETR3.png" width="45%"></a>
-    <a href="link"><img src="./Inference-Image/DETR3.png" width="45%"></a>
+    <a href="link"><img src="./Images/SwinDETR3.png" width="45%"></a>
+    <a href="link"><img src="./Images/DETR3.png" width="45%"></a>
 </figure>
 <br/>
 SwinDETR captures detailed local information (small objects) more effectively and performs well on detection than DETR.
