@@ -113,3 +113,9 @@ pip install torch torchvision opencv-python scipy einops matplotlib pycocotools 
 ### Dataset
 In this study, the COCO 2017 Dataset was utilized to train the SwinDETR model for the Object Detection Task. The COCO 2017 Dataset occupies approximately 37GB of storage, including all images and annotations. It consists of over 330,000 images (Train Set: ~118,000, Validation Set: ~5,000, Test Set: ~41,000, Unlabeled Data: ~123,000) and includes a total of 80 classes, such as humans, animals, vehicles, and household appliances, along with approximately 1.5 million object annotations. These annotations provide detailed information for each object, such as bounding boxes.
 - Link: [COCO 2017 Dataset](https://cocodataset.org/#home)<br/>
+
+## Reference
+- DETR: End-to-End Object Detection with Transformers
+  GitHub: [DETR](https://github.com/facebookresearch/detr)
+- Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+  GitHub: [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
