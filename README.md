@@ -55,6 +55,7 @@ SwinDETR captures detailed local information (small objects) more effectively an
 Compared to DETR, SwinDETR is less likely to misjudge that there are objects in the background around small objects, and less likely to misjudge the class of small objects.
 
 ### SwinDETR-Based Real-Time Object Detection
+- traffic measurement & implementation of pedestrian safety system
 <img src="./Images/RTDetection.png" width="80%">
 <img src="./Images/RTDetection_Alert.png" width="80%">
 
