@@ -118,4 +118,5 @@ In this study, the COCO 2017 Dataset was utilized to train the SwinDETR model fo
 - DETR: End-to-End Object Detection with Transformers<br/>
   GitHub: [DETR](https://github.com/facebookresearch/detr)
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows<br/>
-  GitHub: [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
+  GitHub (official): [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)<br/>
+  GitHub: [Swin-Transformer](https://github.com/csm-kr/swin_transformer_pytorch)
