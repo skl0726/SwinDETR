@@ -3,12 +3,13 @@
 ## Abstract
 In this work, we propose SwinDETR, which integrates a Swin Transformer back-bone into the DETR framework to overcome the low-resolution feature limitations of CNN backbones. SwinDETR removes the class head from the Swin backbone and employs a fully connected layer to align its hierarchical feature maps with the embedding dimension of the DETR encoder, thereby enhancing detection performance across scales, especially for small objects. We further introduce trainable distillation queries inspired by the DeiT distillation token concept and a hard-label distillation scheme that uses teacher model predictions as pseudo-ground truths. Layer-wise cosine similarity analysis reveals that distillation and object queries remain highly similar, indicating limited representational separation and constraining distillation gains. Finally, we apply three post-training quantization methods—weight-only quantization, dynamic quantization, and SmoothQuant—to the trained SwinDETR model and validate their impacts on accuracy, inference speed, and model size.
 
-<img src="./Images/swindetr_distillation.png" width="80%">
+<img src="./Images/swindetr_distillation.png" width="100%">
 
+For more information, please refer to the paper below.<br/>
 [Efficient SwinDETR: Distillation Through Attention
 and Post Training Quantization](https://github.com/skl0726/SwinDETR/blob/main/Efficient_SwinDETR_Distillation_Through_Attention_and_Post_Training_Quantization.pdf)
 
-# (Old) SwinDETR & SwinDETR-Based Real-Time Object Detection
+# (Old Version) SwinDETR & SwinDETR-Based Real-Time Object Detection
 
 ## Abstract
 This study proposes a novel Real-Time Object Detection model to enhance pedestrian safety at the three-way intersection in front of the Cheongam-ro CHANGE-UP GROUND. Cheongam-ro is a major road frequently used by both university members and external vehicles. Due to the high traffic volume and fast vehicle speeds, it creates a challenging environment for pedestrians to cross safely at the crosswalk. To address this issue, this study designed the 'SwinDETR' model, which uses the Swin Transformer as the backbone of DETR, to improve object detection performance in road environments.
