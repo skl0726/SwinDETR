@@ -8,6 +8,7 @@ In this work, we propose SwinDETR, which integrates a Swin Transformer back-bone
 For more information, please refer to the paper below.<br/>
 [Efficient SwinDETR: Distillation Through Attention
 and Post Training Quantization](https://github.com/skl0726/SwinDETR/blob/main/Efficient_SwinDETR_Distillation_Through_Attention_and_Post_Training_Quantization.pdf)
+<br/>
 
 # (Old Version) SwinDETR & SwinDETR-Based Real-Time Object Detection
 
