@@ -1,0 +1,5 @@
+__pycache__
+.DS_Store
+
+SwinDETR_Distillation/models/backbone/swin_weights/
+SwinDETR_Distillation/checkpoint

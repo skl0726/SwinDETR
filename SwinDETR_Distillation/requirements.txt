@@ -1,0 +1,15 @@
+# 1) python3 -m venv ~/venvs/swindetr (run virtal environment, python 3.11 or python 3.12)
+# 2) source ~/venvs/swindetr/bin/activate (activate virtual environment)
+# 3) pip install -r requirements.txt (install requirements)
+# 4) python3 ./models/backbone/setup.py build install (for swin transformer, only when training uing CUDA)
+# 5) python3 -m train
+
+#pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#torch>=2.2.0
+#torchvision>=0.17.0
+
+timm>=0.4.12
+pyyaml
+scipy
+tensorboard
+pycocotools

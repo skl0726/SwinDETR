@@ -1,4 +1,9 @@
-# SwinDETR & SwinDETR-Based Real-Time Object Detection
+# Distillation Through Attention of SwinDETR
+
+## Abstract
+Hello
+
+# (Old) SwinDETR & SwinDETR-Based Real-Time Object Detection
 
 ## Abstract
 This study proposes a novel Real-Time Object Detection model to enhance pedestrian safety at the three-way intersection in front of the Cheongam-ro CHANGE-UP GROUND. Cheongam-ro is a major road frequently used by both university members and external vehicles. Due to the high traffic volume and fast vehicle speeds, it creates a challenging environment for pedestrians to cross safely at the crosswalk. To address this issue, this study designed the 'SwinDETR' model, which uses the Swin Transformer as the backbone of DETR, to improve object detection performance in road environments.
